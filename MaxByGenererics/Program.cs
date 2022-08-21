@@ -42,9 +42,15 @@
             //MaxOfString.toPrint(stringArray);
 
             ////UC4
-            MaximumUsingParamsWithoutGenerics.toPrint(100, 125, 482);
-            MaximumUsingParamsWithoutGenerics.toPrint(10.51f, 12.215f, 4.82f, 31.515f);
-            MaximumUsingParamsWithoutGenerics.toPrint("With", "Params");
+            //MaximumUsingParamsWithoutGenerics.toPrint(100, 125, 482);
+            //MaximumUsingParamsWithoutGenerics.toPrint(10.51f, 12.215f, 4.82f, 31.515f);
+            //MaximumUsingParamsWithoutGenerics.toPrint("With", "Params");
+
+            ////UC5
+            //Console.WriteLine("Find Maximum of String or Intigers with Params and Generics");
+            UsingParams.FindMax(10, 15, 20);
+            UsingParams.FindMax(15.21, 15.1754, 15.5188);
+            UsingParams.FindMax("Generics", "With", "Params");
         }
     }
 }
