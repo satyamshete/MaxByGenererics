@@ -17,16 +17,29 @@
             //MaxOfThreeInt.toPrint(intArray);
 
             ///UC2
-            Console.WriteLine("Find Maximum of 3 float numbers");
-            float input;
-            float[] floatArray = new float[3];
+            //Console.WriteLine("Find Maximum of 3 float numbers");
+            //float input;
+            //float[] floatArray = new float[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter {0} number", i + 1);
+            //    input = float.Parse(Console.ReadLine());
+            //    floatArray[i] = input;
+            //}
+            //MaxOfThreeFloat.toPrint(floatArray);
+
+            ////UC3
+            //  ////UC3
+            Console.WriteLine("Find Maximum of String");
+            string input;
+            string[] stringArray = new string[3];
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("Enter {0} number", i + 1);
-                input = float.Parse(Console.ReadLine());
-                floatArray[i] = input;
+                Console.WriteLine("Enter {0} string", i + 1);
+                input = Console.ReadLine();
+                stringArray[i] = input;
             }
-            MaxOfThreeFloat.toPrint(floatArray);
+            MaxOfString.toPrint(stringArray);
         }
     }
 }
