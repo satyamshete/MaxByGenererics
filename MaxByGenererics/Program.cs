@@ -30,16 +30,21 @@
 
             ////UC3
             //  ////UC3
-            Console.WriteLine("Find Maximum of String");
-            string input;
-            string[] stringArray = new string[3];
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine("Enter {0} string", i + 1);
-                input = Console.ReadLine();
-                stringArray[i] = input;
-            }
-            MaxOfString.toPrint(stringArray);
+            //Console.WriteLine("Find Maximum of String");
+            //string input;
+            //string[] stringArray = new string[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter {0} string", i + 1);
+            //    input = Console.ReadLine();
+            //    stringArray[i] = input;
+            //}
+            //MaxOfString.toPrint(stringArray);
+
+            ////UC4
+            MaximumUsingParamsWithoutGenerics.toPrint(100, 125, 482);
+            MaximumUsingParamsWithoutGenerics.toPrint(10.51f, 12.215f, 4.82f, 31.515f);
+            MaximumUsingParamsWithoutGenerics.toPrint("With", "Params");
         }
     }
 }
